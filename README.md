@@ -37,9 +37,6 @@ Digital-Clock-HH-MM-SS/
 ```
 ---
 
-## RTL Design
-
----
 
 ## Simulation
 ### Setup
@@ -47,20 +44,23 @@ This project includes a testbench and a ready-made `run.do` script to simplify s
 #### How to Simulate
 1. **Navigate to the `tb/` directory**:
    ```bash
-   cd tb
+    cd tb
    ```
 2. **Run the simulation script**:
-  ```bash
-  vsim -do run.do
-  ```
+    ```bash
+    vsim -do run.do
+    ```
     - The run.do script handles:
       1. Compiling all design and testbench files
       2. Loading the top-level testbench
       3. Launching the simulation with waveform display
 
 ### Waveform Snipits
+A snipit to show a one minuite:
 ![Alt Text](/images/one_min.png)
+A snipit to show a one hour:
 ![Alt Text](/images/one_hour.png)
+A snipit to show a one day:
 ![Alt Text](/images/one_day.png)
 
 ### Transcript Snipit
@@ -69,5 +69,30 @@ This project includes a testbench and a ready-made `run.do` script to simplify s
 ---
 
 ## FPGA Implementation
+### Setup
+This project is implemented using **Quartus Prime Lite** on **DE10-lite Board**.
+#### Steps:
+1. Open Quartus and create a new project.
+2. Add all files from the rtl/ directory.
+3. Set the top-level entity as top.
+4. Configure pins according to DE10-Lite constraints.
+5. Compile the design and program the board.
 
+#### RTL Viewer:
+![Alt Text](/images/rtl_sch.png)
+
+#### Pin Planner:
+A snipit of the pin planner window. You can find the `.qsf` in `syn/` in which the pin assigment is done.
+![Alt Text](/images/pinplanner.png)
+
+### Demo
+![Demo of the clock](/images/demo.gif)
+
+- The left most 2 digits represent HH then MM then SS.
+- The right most LED represents PM when high and AM when low.
+- The upper push-button represents the active-low reset.
+- The right most swithc represents the enable (resume/stop) signal.
+
+# License
+This project is licensed under the [MIT License](/LICENSE).
 
