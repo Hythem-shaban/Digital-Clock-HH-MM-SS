@@ -29,7 +29,7 @@ Digital-Clock-HH-MM-SS/
 │   ├── wave.vcd            # A DUMP file for the waveform
 │   └── run.do              # QuestaSim DO file for automated simulation
 │
-├── syn/                    # Quartus project files (optional or WIP)
+├── syn/                    # Quartus project files
 │
 ├── README.md               # Project documentation
 │
