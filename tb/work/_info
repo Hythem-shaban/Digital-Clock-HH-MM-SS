@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Digital IC Material and Projects/Projects/Design/Digital Clock/tb
+T_opt
+!s110 1747303292
+VPKeZ`4GQUEb=>`_>6JB831
+04 8 4 work clock_tb fast 0
+=1-b81ea436c8e5-6825bb7c-13f-71d0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vclock
+Z2 !s110 1747303291
+!i10b 1
+!s100 Mg;MBD:G2foJh:bY`;`JE1
+IPTgF>AMH6PWNFiOm:UM5d0
+R0
+w1747302370
+8../rtl/clock.v
+F../rtl/clock.v
+!i122 0
+Z3 L0 1 37
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1747303291.000000
+Z7 !s107 ../rtl/top.v|../rtl/even_clk_div.v|../rtl/decoder_7seq.v|../rtl/count_59.v|../rtl/count_12.v|../rtl/clock.v|
+Z8 !s90 -reportprogress|300|../rtl/clock.v|../rtl/count_12.v|../rtl/count_59.v|../rtl/decoder_7seq.v|../rtl/even_clk_div.v|../rtl/top.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclock_tb
+R2
+!i10b 1
+!s100 3G4MMW>M<fa0gK8g3XmcV1
+I6gN4<W>]2g_3KFVbENXSh2
+R0
+w1747303257
+8clock_tb.v
+Fclock_tb.v
+!i122 1
+L0 2 64
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 clock_tb.v|
+!s90 -reportprogress|300|clock_tb.v|
+!i113 0
+R9
+R1
+vcount_12
+R2
+!i10b 1
+!s100 5^ZFa3YlG?I;65^FT:03f1
+I7IVc2@OZ^?K^BFTKW:78T0
+R0
+w1740633606
+8../rtl/count_12.v
+F../rtl/count_12.v
+!i122 0
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vcount_59
+R2
+!i10b 1
+!s100 MjnN2N8Za05ER[9`4bD4]1
+IlL:HnC2:OQ1^ka?cY1m[51
+R0
+w1740633589
+8../rtl/count_59.v
+F../rtl/count_59.v
+!i122 0
+L0 1 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vdecoder_7seq
+R2
+!i10b 1
+!s100 B;T3>G]4OGM7>B?l<WBgo3
+I]JIS;VWnJb9UID?1TSF[32
+R0
+w1739333870
+8../rtl/decoder_7seq.v
+F../rtl/decoder_7seq.v
+!i122 0
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+veven_clk_div
+R2
+!i10b 1
+!s100 <kYfGh06P09lgGa>dmA9Y2
+IgdWZEF861]9gmX_kHGoCG0
+R0
+w1740633568
+8../rtl/even_clk_div.v
+F../rtl/even_clk_div.v
+!i122 0
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtop
+R2
+!i10b 1
+!s100 Bd3;A19Wg6E<@;A02ZdiB1
+I6Z^k40YW[=hlh<OQJ_obh2
+R0
+w1747302359
+8../rtl/top.v
+F../rtl/top.v
+!i122 0
+L0 1 25
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

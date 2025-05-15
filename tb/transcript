@@ -1,0 +1,60 @@
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 13:01:31 on May 15,2025
+# vlog -reportprogress 300 ../rtl/clock.v ../rtl/count_12.v ../rtl/count_59.v ../rtl/decoder_7seq.v ../rtl/even_clk_div.v ../rtl/top.v 
+# -- Compiling module clock
+# -- Compiling module count_12
+# -- Compiling module count_59
+# -- Compiling module decoder_7seq
+# -- Compiling module even_clk_div
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:01:31 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 13:01:31 on May 15,2025
+# vlog -reportprogress 300 clock_tb.v 
+# -- Compiling module clock_tb
+# 
+# Top level modules:
+# 	clock_tb
+# End time: 13:01:31 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.clock_tb 
+# Start time: 13:01:32 on May 15,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: clock_tb.v(56): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 8, found 7.
+# ** Warning: clock_tb.v(56): (vopt-2718) [TFMPC] - Missing connection for port 'o_dpnt'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.clock_tb(fast)
+# Loading work.clock(fast)
+# Loading work.count_59(fast)
+# Loading work.count_12(fast)
+# [     20] 12:00:00 AM
+# [ 497707] 06:54:44 AM
+# [2096490] 05:07:03 AM
+# [2199876] 06:33:13 AM
+# [3271138] 09:25:56 PM
+# [4152399] 09:40:19 AM
+# [4716141] 05:30:06 PM
+# ** Note: $stop    : clock_tb.v(36)
+#    Time: 4716141 ns  Iteration: 0  Instance: /clock_tb
+# Break in Module clock_tb at clock_tb.v line 36
+# End time: 13:33:12 on May 15,2025, Elapsed time: 0:31:40
+# Errors: 0, Warnings: 2
